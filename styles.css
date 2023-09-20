@@ -40,16 +40,16 @@ nav ul li{
 .container{
     min-height: 72vh;
     margin: 0;
-    background-color: black;
-    color: white;
+    background-color: aquamarine;
     font-family: 'Varela Round', sans-serif;
     display: flex;
     margin: 23px auto;
     width: 70%;
     border-radius: 12px;
     padding: 34px;
-    background-image: url("images/bg.jpg");
+    /* background-image: url("images/bg.jpg"); */
     background-position: center;
+    
 }
 
 .bottom{
@@ -70,10 +70,53 @@ nav ul li{
 
 #progressBar{
     width: 80vw ;
+    cursor: pointer;
 }
 .img2{
     height: 30px;
     width: 30px;
     cursor: pointer;  
 }
+.img3{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;  
+}
+.songItem{
+    background-color: aliceblue;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    margin: 12px 0;
 
+    
+}
+.cover{
+    border-radius: 34px;
+    width: 43px;
+    margin: 0 23px;
+}
+.songlistplay{
+    margin: 0 10px;
+    font-size: 15px;
+}
+.timestamp{
+    margin: 0 23px;
+    font-size: 15px;
+}
+.songItemContainer{
+    margin-top: 65px;
+}
+.songInfo img{
+ opacity: 0;
+ transition: opacity 0.8s ease-in;
+}
+.songInfo{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.gif{
+    opacity: 1;
+}
