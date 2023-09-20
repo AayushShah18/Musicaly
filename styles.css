@@ -38,10 +38,18 @@ nav ul li{
 }
 
 .container{
-    min-height: 75vh;
+    min-height: 72vh;
     margin: 0;
     background-color: black;
     color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("images/bg.jpg");
+    background-position: center;
 }
 
 .bottom{
@@ -52,6 +60,8 @@ nav ul li{
     align-items: center;
     color: white;
     flex-direction: column;
+    position: sticky;
+    bottom: 0;
 }
 
 .icons{
@@ -62,10 +72,8 @@ nav ul li{
     width: 80vw ;
 }
 .img2{
-    visibility: visible;
     height: 30px;
     width: 30px;
-    cursor: pointer;
-   
+    cursor: pointer;  
 }
 
